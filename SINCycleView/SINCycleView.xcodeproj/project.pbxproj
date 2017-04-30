@@ -15,6 +15,10 @@
 		185D3D781EB5C28300AAD618 /* SINCycleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3D771EB5C28300AAD618 /* SINCycleViewTests.m */; };
 		185D3D831EB5C28300AAD618 /* SINCycleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3D821EB5C28300AAD618 /* SINCycleViewUITests.m */; };
 		185D3D9A1EB5C45900AAD618 /* SINDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3D991EB5C45900AAD618 /* SINDemoViewController.m */; };
+		185D3D9D1EB5C5E300AAD618 /* SINCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3D9C1EB5C5E300AAD618 /* SINCycleView.m */; };
+		185D3DA01EB5C60000AAD618 /* SINWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3D9F1EB5C60000AAD618 /* SINWebImageDownloader.m */; };
+		185D3DA31EB5C63A00AAD618 /* SINImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D3DA21EB5C63A00AAD618 /* SINImageView.m */; };
+		7C0EA4A8E399F491DD5BCB1E /* Pods_SINCycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221B5962D941E1A307F2199D /* Pods_SINCycleView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		185D3D841EB5C28300AAD618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185D3D981EB5C45900AAD618 /* SINDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINDemoViewController.h; sourceTree = "<group>"; };
 		185D3D991EB5C45900AAD618 /* SINDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINDemoViewController.m; sourceTree = "<group>"; };
+		185D3D9B1EB5C5E300AAD618 /* SINCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINCycleView.h; sourceTree = "<group>"; };
+		185D3D9C1EB5C5E300AAD618 /* SINCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINCycleView.m; sourceTree = "<group>"; };
+		185D3D9E1EB5C60000AAD618 /* SINWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINWebImageDownloader.h; sourceTree = "<group>"; };
+		185D3D9F1EB5C60000AAD618 /* SINWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINWebImageDownloader.m; sourceTree = "<group>"; };
+		185D3DA11EB5C63A00AAD618 /* SINImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINImageView.h; sourceTree = "<group>"; };
+		185D3DA21EB5C63A00AAD618 /* SINImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINImageView.m; sourceTree = "<group>"; };
+		221B5962D941E1A307F2199D /* Pods_SINCycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SINCycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64530A2FD978B5350C1AC12 /* Pods-SINCycleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SINCycleView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SINCycleView/Pods-SINCycleView.debug.xcconfig"; sourceTree = "<group>"; };
+		CC41EFA90A562F629AE06AC0 /* Pods-SINCycleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SINCycleView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SINCycleView/Pods-SINCycleView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0EA4A8E399F491DD5BCB1E /* Pods_SINCycleView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				185D3D761EB5C28300AAD618 /* SINCycleViewTests */,
 				185D3D811EB5C28300AAD618 /* SINCycleViewUITests */,
 				185D3D5B1EB5C28300AAD618 /* Products */,
+				9105BC3F85AC95E4CAE8CCA6 /* Pods */,
+				5552209BB9F542E7A685AE5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,9 +168,32 @@
 		185D3D941EB5C2D100AAD618 /* CycleView */ = {
 			isa = PBXGroup;
 			children = (
+				185D3D9B1EB5C5E300AAD618 /* SINCycleView.h */,
+				185D3D9C1EB5C5E300AAD618 /* SINCycleView.m */,
+				185D3D9E1EB5C60000AAD618 /* SINWebImageDownloader.h */,
+				185D3D9F1EB5C60000AAD618 /* SINWebImageDownloader.m */,
+				185D3DA11EB5C63A00AAD618 /* SINImageView.h */,
+				185D3DA21EB5C63A00AAD618 /* SINImageView.m */,
 			);
 			name = CycleView;
 			path = Demo/CycleView;
+			sourceTree = "<group>";
+		};
+		5552209BB9F542E7A685AE5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				221B5962D941E1A307F2199D /* Pods_SINCycleView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9105BC3F85AC95E4CAE8CCA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64530A2FD978B5350C1AC12 /* Pods-SINCycleView.debug.xcconfig */,
+				CC41EFA90A562F629AE06AC0 /* Pods-SINCycleView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185D3D871EB5C28300AAD618 /* Build configuration list for PBXNativeTarget "SINCycleView" */;
 			buildPhases = (
+				A5D7D1A4BFE615535C29EC4A /* [CP] Check Pods Manifest.lock */,
 				185D3D561EB5C28300AAD618 /* Sources */,
 				185D3D571EB5C28300AAD618 /* Frameworks */,
 				185D3D581EB5C28300AAD618 /* Resources */,
+				5CF6845B46E34CCF5B1A4253 /* [CP] Embed Pods Frameworks */,
+				1BADE213C7D2BD6851C6629C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +327,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BADE213C7D2BD6851C6629C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SINCycleView/Pods-SINCycleView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF6845B46E34CCF5B1A4253 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SINCycleView/Pods-SINCycleView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D7D1A4BFE615535C29EC4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		185D3D561EB5C28300AAD618 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -292,7 +382,10 @@
 			files = (
 				185D3D9A1EB5C45900AAD618 /* SINDemoViewController.m in Sources */,
 				185D3D621EB5C28300AAD618 /* AppDelegate.m in Sources */,
+				185D3DA01EB5C60000AAD618 /* SINWebImageDownloader.m in Sources */,
+				185D3D9D1EB5C5E300AAD618 /* SINCycleView.m in Sources */,
 				185D3D5F1EB5C28300AAD618 /* main.m in Sources */,
+				185D3DA31EB5C63A00AAD618 /* SINImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +534,7 @@
 		};
 		185D3D881EB5C28300AAD618 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64530A2FD978B5350C1AC12 /* Pods-SINCycleView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SINCycleView/Info.plist;
@@ -452,6 +546,7 @@
 		};
 		185D3D891EB5C28300AAD618 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC41EFA90A562F629AE06AC0 /* Pods-SINCycleView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SINCycleView/Info.plist;
@@ -493,6 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuang.SINCycleViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SINCycleView;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -504,6 +600,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuang.SINCycleViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SINCycleView;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -526,6 +623,7 @@
 				185D3D891EB5C28300AAD618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185D3D8A1EB5C28300AAD618 /* Build configuration list for PBXNativeTarget "SINCycleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +632,7 @@
 				185D3D8C1EB5C28300AAD618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185D3D8D1EB5C28300AAD618 /* Build configuration list for PBXNativeTarget "SINCycleViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +641,7 @@
 				185D3D8F1EB5C28300AAD618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
